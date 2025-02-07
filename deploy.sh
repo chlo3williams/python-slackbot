@@ -6,7 +6,7 @@ FUNCTION_NAME="slack-github-discussions"
 ZIP_FILE="slack-github-discussions.zip"
 HANDLER="slack_github_discussions.lambda_handler"
 RUNTIME="python3.9"
-ROLE_ARN="arn:aws:iam::YOUR_ACCOUNT_ID:role/YOUR_LAMBDA_ROLE"
+ROLE_ARN="arn:aws:iam::074164958865:role/service-role/slack-github-discussions-role-53v8td1q"
 
 # Remove old package if exists
 rm -f $ZIP_FILE
